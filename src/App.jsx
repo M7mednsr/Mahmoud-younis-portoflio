@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ProjectsSection from "./components/ProjectsSection";
 import ExpertiseSection from "./components/ExpertiseSection";
+import CertificatesSection from "./components/CertificatesSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <ProjectsSection />
         <ExpertiseSection />
+        <CertificatesSection />
         <ContactSection />
       </main>
       <Footer />

@@ -30,6 +30,23 @@ export const projectFilters = [
 export const projectsData = [
   {
     id: 1,
+    title: "Dia 3200 mm — Nile Canals & Railway Crossing",
+    location: "Barqash → Nikla, Egypt",
+    description:
+      "We are proud to finsh our new challenge Dia 3200 mm, Despite the challenges of working under an active railway line and traversing two Nile canals, we are immensely proud to announce the successful completion of the first tunnel, with the impressive length of 340 meters and slope -50cm",
+    tags: ["MTBM", "Micro Tunneling", "Pipe Jacking", "Construction Management"],
+    images: [
+      "/imgs/dia3200-tunnel-1.png",
+      "/imgs/dia3200-tunnel-2.png",
+      "/imgs/dia3200-tunnel-3.png",
+    ],
+    stats: [
+      { value: "340 meters", label: "Length" },
+      { value: "Dia 3200 mm", label: "Diameter" },
+    ],
+  },
+  {
+    id: 2,
     title: "MTBM Drive — Al-Kharj Sewer Network",
     location: "Al-Kharj, Riyadh Province",
     description:
@@ -42,7 +59,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "PLC & Laser Guidance Console",
     location: "MTBM Control Cabin",
     description:
@@ -55,7 +72,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Pipe Jacking — King Fahd Road",
     location: "Al Aliyah, Al-Kharj",
     description:
@@ -68,7 +85,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "MTBM Arrival — King Salman Bin Abdulaziz Rd",
     location: "Al Faysaliyah, Al-Kharj",
     description:
@@ -81,7 +98,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Cutterhead in Hard Ground",
     location: "Al-Kharj, Saudi Arabia",
     description:
@@ -94,7 +111,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Cutterhead Breakthrough — An Nuzhah",
     location: "An Nuzhah, Al-Kharj",
     description:
@@ -103,11 +120,11 @@ export const projectsData = [
     image: "/imgs/WhatsApp Image 2026-07-15 at 8.57.39 AM (1).jpeg",
     stats: [
       { value: "King Fahd Rd", label: "Corridor" },
-      { value: "Breakthrough", label: labelOrStage("Stage") },
+      { value: "Breakthrough", label: "Stage" },
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Reception Shaft Arrival",
     location: "Al-Kharj Drainage Line",
     description:
@@ -120,7 +137,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Micro Tunneling Drive — 7949 Al-Qaysarani",
     location: "Al-Kharj, Riyadh Province",
     description:
@@ -133,7 +150,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Nile River Crossing — Micro Tunneling Drive",
     location: "Barqash → Nikla, Egypt",
     description:
@@ -146,7 +163,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Barqash–Nikla Alignment Planning",
     location: "Nile Delta, Egypt",
     description:
@@ -159,7 +176,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "MTBM Arrival — Deep Wet Shaft",
     location: "Reception Shaft, Egypt",
     description:
@@ -172,7 +189,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "1400 mm MTBM Recovery",
     location: "Al-Kharj Sewer Project",
     description:
@@ -185,16 +202,172 @@ export const projectsData = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Rock-Face MTBM Drive",
     location: "Riyadh Province",
     description:
       "Advanced the MTBM through hard limestone rock. Monitored cutter wear and steering as the machine cut a clean bore through the rock face into open ground.",
     tags: ["MTBM", "Micro Tunneling", "Mechanical"],
-    image: "/imgs/WhatsApp Image 2026-07-15 at 8.57.41 AM (1).jpeg",
+    image: "/imgs/WhatsApp Image 2026-07-19 at 1.05.06 AM (1).jpeg",
     stats: [
       { value: "Hard rock", label: "Ground" },
-      { value: 'Clean bore', label: "Result" },
+      { value: "Clean bore", label: "Result" },
+    ],
+  },
+  {
+    id: 15,
+    title: "Precision Laser Guidance Setup",
+    location: "Control Cabin & Tunnel Heading",
+    description:
+      "Calibrated and maintained laser guidance systems inside the MTBM guidance console, ensuring millimeter precision alignment across extended tunneling drives.",
+    tags: ["Laser Guidance", "PLC", "Automation"],
+    image: "/imgs/WhatsApp Image 2026-07-15 at 8.57.41 AM (2).jpeg",
+    stats: [
+      { value: "Sub-cm", label: "Accuracy" },
+      { value: "Laser", label: "System" },
+    ],
+  },
+  {
+    id: 16,
+    title: "Hydraulic Thrust & Pipe Monitoring",
+    location: "Jacking Pit Station",
+    description:
+      "Continuous monitoring of hydraulic thrust jacks and intermediate jacking stations to prevent pipe overstressing during long-distance pushes.",
+    tags: ["Pipe Jacking", "Micro Tunneling", "Mechanical"],
+    image: "/imgs/WhatsApp Image 2026-07-19 at 1.05.07 AM (4).jpeg",
+    stats: [
+      { value: "Hydraulic", label: "System" },
+      { value: "Zero", label: "Deflection" },
+    ],
+  },
+  {
+    id: 17,
+    title: "Slurry Separation & Desilting Plant",
+    location: "Surface Support Station",
+    description:
+      "Managed surface slurry separation units and desilting operations essential for continuous face stability and fluid circulation during tunneling.",
+    tags: ["Construction Management", "Mechanical", "Maintenance"],
+    image: "/imgs/WhatsApp Image 2026-07-15 at 8.57.41 AM.jpeg",
+    stats: [
+      { value: "Slurry", label: "Plant" },
+      { value: "Continuous", label: "Circulation" },
+    ],
+  },
+  {
+    id: 18,
+    title: "MTBM Shaft Launch Inspection",
+    location: "Launch Pit",
+    description:
+      "Conducted thorough pre-launch mechanical and sealing system inspections before committing the MTBM cutterhead into mixed-face ground.",
+    tags: ["MTBM", "Construction Management", "Pipe Jacking"],
+    image: "/imgs/WhatsApp Image 2026-07-15 at 8.57.42 AM.jpeg",
+    stats: [
+      { value: "Launch", label: "Stage" },
+      { value: "Verified", label: "Status" },
+    ],
+  },
+  {
+    id: 19,
+    title: "Underground Slurry & Fluid Management",
+    location: "Al-Kharj Sewer Network",
+    description:
+      "Monitored slurry density, flow rate, and separation efficiency during high-pressure micro tunneling operations to prevent face collapse in unstable soil.",
+    tags: ["MTBM", "Micro Tunneling", "Maintenance"],
+    image: "/imgs/WhatsApp Image 2026-07-19 at 1.05.04 AM (1).jpeg",
+    stats: [
+      { value: "Slurry", label: "Control" },
+      { value: "Balanced", label: "Pressure" },
+    ],
+  },
+  {
+    id: 20,
+    title: "Heavy Pipe Jacking Hydraulic Setup",
+    location: "Riyadh Infrastructure Corridor",
+    description:
+      "Coordinated main jacking station cylinders and intermediate jacking rings for long-distance concrete pipe pushing under high overburden.",
+    tags: ["Pipe Jacking", "Mechanical", "Construction Management"],
+    image: "/imgs/WhatsApp Image 2026-07-19 at 1.05.04 AM (2).jpeg",
+    stats: [
+      { value: "Heavy", label: "Thrust" },
+      { value: "Zero", label: "Overstress" },
+    ],
+  },
+  {
+    id: 21,
+    title: "MTBM Cutterhead Disc & Tooth Overhaul",
+    location: "On-Site Workshop",
+    description:
+      "Supervised inspection and replacement of worn cutterhead discs and scraping teeth following breakthrough from hard cemented gravel layers.",
+    tags: ["MTBM", "Mechanical", "Maintenance"],
+    image: "/imgs/WhatsApp Image 2026-07-19 at 1.05.05 AM.jpeg",
+    stats: [
+      { value: "Cutterhead", label: "Service" },
+      { value: "Overhaul", label: "Stage" },
+    ],
+  },
+  {
+    id: 22,
+    title: "Deep Shaft Entry & Exit Sealing",
+    location: "King Fahd Road Crossing",
+    description:
+      "Installed and tested high-pressure rubber seal assemblies on shaft walls to prevent groundwater ingress during MTBM launch and reception.",
+    tags: ["Micro Tunneling", "Construction Management", "Sewer"],
+    image: "/imgs/WhatsApp Image 2026-07-19 at 1.05.06 AM (2).jpeg",
+    stats: [
+      { value: "Watertight", label: "Seal" },
+      { value: "Deep", label: "Shaft" },
+    ],
+  },
+  {
+    id: 23,
+    title: "Automated PLC Steering & Articulation",
+    location: "Control Cabin HMI",
+    description:
+      "Real-time adjustments to MTBM steering cylinders and articulation joint pressure via automated PLC system, correcting minor drift along horizontal curves.",
+    tags: ["PLC", "Automation", "Laser Guidance"],
+    image: "/imgs/WhatsApp Image 2026-07-19 at 1.05.06 AM.jpeg",
+    stats: [
+      { value: "Automated", label: "Steering" },
+      { value: "Precision", label: "Curve" },
+    ],
+  },
+  {
+    id: 24,
+    title: "Micro Tunneling Alignment Survey & Target",
+    location: "Tunnel Heading Station",
+    description:
+      "Executed periodic optical laser target verification and gyro survey cross-checks to ensure strict adherence to design line and grade.",
+    tags: ["Laser Guidance", "Micro Tunneling", "Automation"],
+    image: "/imgs/WhatsApp Image 2026-07-19 at 1.05.07 AM (1).jpeg",
+    stats: [
+      { value: "Survey", label: "Verification" },
+      { value: "On Grade", label: "Accuracy" },
+    ],
+  },
+  {
+    id: 25,
+    title: "Sewer Trunk Main Interconnection",
+    location: "Al Faysaliyah, Riyadh Province",
+    description:
+      "Supervised final pipe tie-in and joint sealing operations inside the reception shaft connecting the newly driven micro tunnel to the main sewer network.",
+    tags: ["Sewer", "Pipe Jacking", "Construction Management"],
+    image: "/imgs/WhatsApp Image 2026-07-19 at 1.05.07 AM (3).jpeg",
+    stats: [
+      { value: "Trunk Main", label: "Tie-in" },
+      { value: "Completed", label: "Status" },
+    ],
+  },
+  {
+    id: 26,
+    title: "MTBM Surface Power & Hydraulic Pack",
+    location: "Surface Site Compound",
+    description:
+      "Managed surface hydraulic power units, frequency converters, and electrical distribution systems feeding the underground tunneling machine.",
+    tags: ["Mechanical", "Maintenance", "Automation"],
+    image: "/imgs/WhatsApp Image 2026-07-19 at 1.05.07 AM.jpeg",
+    stats: [
+      { value: "Hydraulic", label: "Power Pack" },
+      { value: "Stable", label: "Supply" },
     ],
   },
 ];
@@ -274,3 +447,26 @@ export const footerData = {
   copyright:
     "© 2026 Mahmoud Younis. Tunneling engineer, construction manager, MTBM & micro tunneling specialist.",
 };
+
+export const certificatesData = [
+  {
+    id: 1,
+    title: "OSHA Guidelines in General & Construction Industry",
+    issuer: "Engineers Syndicate — Alexandria",
+    date: "October 2023",
+    description:
+      "Successfully completed rigorous training covering OSHA guidelines, occupational health, safety protocols, and hazard prevention tailored specifically for general engineering and heavy construction sites.",
+    image: "/imgs/cert-osha.png",
+    badge: "Official Certification",
+  },
+  {
+    id: 2,
+    title: "HSE 3 Days Diploma",
+    issuer: "AGBSK",
+    date: "October 2023",
+    description:
+      "Extensive health, safety, and environmental (HSE) diploma training program focusing on site safety management, risk assessment, and environmental compliance in engineering operations.",
+    image: "/imgs/cert-hse.png",
+    badge: "Diploma of Achievement",
+  },
+];

@@ -25,6 +25,12 @@ const Navbar = () => {
             Expertise
           </a>
           <a
+            href="#certificates"
+            className="hover:text-[#0b0f17] transition-colors"
+          >
+            Certificates
+          </a>
+          <a
             href="#contact"
             className="hover:text-[#0b0f17] transition-colors"
           >

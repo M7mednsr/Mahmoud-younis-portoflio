@@ -32,7 +32,7 @@ const Hero = () => {
             {heroData.description}
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-4">
+          <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
             <a
               href="#projects"
               className="inline-flex items-center justify-center rounded-lg bg-amber-500 px-6 py-3 text-sm font-semibold text-[#0b0f17] shadow-lg shadow-amber-500/20 hover:bg-amber-400 hover:-translate-y-0.5 transition-all duration-200"
@@ -45,6 +45,17 @@ const Hero = () => {
             >
               Discuss a project
             </a>
+          </div>
+
+          {/* Featured Video Showcase */}
+          <div className="w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-white/20 bg-black/60 backdrop-blur-md aspect-video relative mt-2">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/dDcrM-CPrvs?rel=0"
+              title="Mahmoud Younis — Tunneling & MTBM Engineering Showcase"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
           </div>
         </div>
       </div>
