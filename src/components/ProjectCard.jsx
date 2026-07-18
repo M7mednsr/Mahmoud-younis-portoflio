@@ -100,7 +100,7 @@ const ProjectCard = ({ project }) => {
             </div>
           )}
 
-          <p className="text-sm text-slate-600 mb-5 leading-relaxed">
+          <p className="text-sm text-slate-600 mb-5 leading-relaxed whitespace-pre-line">
             {project.description}
           </p>
 

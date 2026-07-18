@@ -30,7 +30,7 @@ export const projectFilters = [
 export const projectsData = [
   {
     id: 1,
-    title: "Dia 3200 mm — Nile Canals & Railway Crossing",
+    title: "HASSAN ALLAM CO. HAC",
     location: "Barqash → Nikla, Egypt",
     description:
       "We are proud to finsh our new challenge Dia 3200 mm, Despite the challenges of working under an active railway line and traversing two Nile canals, we are immensely proud to announce the successful completion of the first tunnel, with the impressive length of 340 meters and slope -50cm",
@@ -164,15 +164,15 @@ export const projectsData = [
   },
   {
     id: 11,
-    title: "Barqash–Nikla Alignment Planning",
-    location: "Nile Delta, Egypt",
+    title: "Al Gabal Al Asfar Sanitation Infrastructure",
+    location: "Greater Cairo, Egypt",
     description:
-      "Planned and set out the multi-drive alignment for the Barqash–Nikla river crossing. Coordinated launch and reception shaft positions, drive lengths, and pipeline geometry across the corridor.",
-    tags: ["Construction Management", "Micro Tunneling", "Pipe Jacking"],
+      "Some of the most important infrastructure is the kind you never see.\n\nThe Al Gabal Al Asfar project is one of Egypt's largest sanitation infrastructure developments, delivered in multiple phases to support the rapid expansion of New Cairo and the surrounding urban communities.\n\nSpanning a vast service area, the project strengthens wastewater collection and treatment networks that thousands of homes, businesses, and future developments rely on every day. As cities continue to grow, these systems ensure that essential services grow with them, protecting public health, improving environmental sustainability, and enabling long-term urban development.\n\nBecause sustainable cities are built on infrastructure that works long before it's ever noticed.",
+    tags: ["Construction Management", "Micro Tunneling", "Pipe Jacking", "Sewer"],
     image: "/imgs/WhatsApp Image 2026-07-15 at 8.57.40 AM (3).jpeg",
     stats: [
-      { value: "Barqash–Nikla", label: "Corridor" },
-      { value: "Multi-drive", label: "Scope" },
+      { value: "Al Gabal Al Asfar", label: "Project" },
+      { value: "Mega Scale", label: "Sanitation" },
     ],
   },
   {
