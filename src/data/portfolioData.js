@@ -29,6 +29,25 @@ export const projectFilters = [
 
 export const projectsData = [
   {
+    id: 27,
+    title: "AVN 1600 Microtunneling Breakthrough",
+    location: "Buraydah, Al Qassim Province",
+    description:
+      "By the grace of God, the AVN 1600 microtunneling machine has successfully emerged in Buraydah. The machine completed its critical breakthrough after tunneling directly beneath the busy Ring Road. This major achievement marks a significant milestone for the city's ongoing infrastructure project. The excavation team successfully navigated complex underground soil conditions during the entire operation. Congratulations to everyone involved.",
+    tags: ["MTBM", "Micro Tunneling", "Construction Management"],
+    images: [
+      "/imgs/WhatsApp Image 2026-08-18 at 8.32.06 AM (1).jpeg",
+      "/imgs/WhatsApp Image 2026-08-18 at 8.32.04 AM (1).jpeg",
+      "/imgs/WhatsApp Image 2026-08-18 at 8.32.04 AM.jpeg",
+      "/imgs/WhatsApp Image 2026-08-18 at 8.32.06 AM (2).jpeg",
+      "/imgs/WhatsApp Image 2026-08-18 at 8.32.06 AM.jpeg"
+    ],
+    stats: [
+      { value: "AVN 1600", label: "Machine" },
+      { value: "Buraydah", label: "Location" },
+    ],
+  },
+  {
     id: 1,
     title: "HASSAN ALLAM CO. HAC",
     location: "Barqash → Nikla, Egypt",
@@ -308,7 +327,7 @@ export const projectsData = [
   {
     id: 22,
     title: "Deep Shaft Entry & Exit Sealing",
-    location: "King Fahd Road Crossing",
+    location: "Yas island Abu Dhabi",
     description:
       "Installed and tested high-pressure rubber seal assemblies on shaft walls to prevent groundwater ingress during MTBM launch and reception.",
     tags: ["Micro Tunneling", "Construction Management", "Sewer"],
