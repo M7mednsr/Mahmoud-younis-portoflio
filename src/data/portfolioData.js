@@ -6,8 +6,8 @@ export const heroData = {
     "Delivering precision underground infrastructure through expert machine operation, intelligent automation, and disciplined construction management.",
   bgImage: "/imgs/hero-background.png",
   stats: [
-    { number: "10+", label: "Years underground" },
-    { number: "30+", label: "MTBM drives" },
+    { number: "15+", label: "Years underground" },
+    { number: "60+", label: "MTBM drives" },
     { number: "6", label: "Core disciplines" },
     { number: "∞", label: "Tight tolerances" },
   ],
@@ -28,6 +28,36 @@ export const projectFilters = [
 ];
 
 export const projectsData = [
+  {
+    id: 29,
+    title: "AVN 1600 Breakthrough — Al Nahda District, Buraydah",
+    location: "Al Nahda District, Buraydah, Al Qassim",
+    description:
+      "Successful breakthrough of our 76m microtunneling drive with the Herrenknecht AVN 1600 (Ø1600mm) under mixed-face ground conditions (Rock + Mud). Achieved zero deviation with 100% laser-guided alignment (Vertical & Horizontal Offset: 0.0), a high advance rate of 12m/day shift (4 pipes), and an efficient pushing force of only 20 tons in collaboration with IASCO.",
+    tags: ["MTBM", "Micro Tunneling", "Laser Guidance", "Sewer", "Construction Management"],
+    images: [
+      "/imgs/WhatsApp Image 2026-11-09 at 5.44.54 PM.jpeg",
+    ],
+    stats: [
+      { value: "76m", label: "Drive Length" },
+      { value: "0.0 Offset", label: "Zero Deviation" },
+    ],
+  },
+  {
+    id: 28,
+    title: "Double Breakthrough in Riyadh — 500 Meters of Success",
+    location: "Riyadh, Kingdom of Saudi Arabia",
+    description:
+      "Proud to announce the successful breakthrough of two Micro-TBMs in one of Riyadh's most challenging grounds! Completed two parallel drives through abrasive hard limestone and calcareous rock (Machine 1: Ø1600mm – 250m drive, Machine 2: Ø1400mm – 250m drive) totaling 500 linear meters without changing any cutting discs, while maintaining precise line & level with zero incidents.",
+    tags: ["MTBM", "Micro Tunneling", "Pipe Jacking", "Construction Management"],
+    images: [
+      "/imgs/WhatsApp Image 2026-11-09 at 2.16.26 PM.jpeg",
+    ],
+    stats: [
+      { value: "500m", label: "Total Drive" },
+      { value: "Ø1600 & Ø1400", label: "Machines" },
+    ],
+  },
   {
     id: 27,
     title: "AVN 1600 Microtunneling Breakthrough",

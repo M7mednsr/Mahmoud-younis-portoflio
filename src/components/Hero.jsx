@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section id="top" className="relative flex flex-col">
       {/* Dark Hero Background Banner */}
-      <div className="relative min-h-[640px] flex items-center justify-center overflow-hidden py-24 px-6 text-center">
+      <div className="relative min-h-160 flex items-center justify-center overflow-hidden py-24 px-6 text-center">
         {/* Background Photo & Overlays */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
